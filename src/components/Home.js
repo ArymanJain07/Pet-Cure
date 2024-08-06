@@ -1,8 +1,15 @@
 import React from 'react'
+import About from './About';
+import FindVet from './FindVet';
+import Mission from './Mission';
+import Review from './Review';
+import Footer from './Footer';
+import NavBar from './NavBar';
 
 const Home = () => {
   return (
     <>
+    <NavBar />
       <section className="home" id="home">
         <div className="content">
           <h3>
@@ -16,6 +23,12 @@ const Home = () => {
           </a>
         </div>
       </section>
+      <About />
+      <FindVet />
+      <Mission />
+      <Review />
+      <Footer />
+      
     </>
   )
 };

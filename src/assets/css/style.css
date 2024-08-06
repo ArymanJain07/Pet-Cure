@@ -12,6 +12,9 @@
   transition: 0.2s linear;
 }
 
+
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -319,6 +322,85 @@ section {
 .contact .row form .submitBtn:hover {
   background: #e58b42;
 }
+
+/* Sign up css */
+
+/* Apply general styles to the contact form */
+.contact-form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: #13131a;
+  border-radius: 10px;
+}
+
+/* Style for labels */
+.contact-form .form-label {
+  color: #fff;
+  font-size: 2rem; /* Adjust font size for labels */
+  margin-top: 0.5rem; /* Adjusted margin for better spacing */
+}
+
+/* Header styling */
+.contact-form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+/* Paragraph styling */
+.contact-form p {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Style for input groups */
+.contact-form .input-group {
+  margin-bottom: 2rem;
+}
+
+/* Style for form controls */
+.contact-form .form-control {
+  background: #dbd1d1;
+  border: 0.2rem solid #c36354;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #121212;
+  font-size: 1.6rem; /* Adjust font size for inputs */
+}
+
+/* Style for select elements */
+.contact-form .form-select {
+  background: #fff;
+  border: 0.2rem solid #c36354;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.6rem; /* Adjust font size for select */
+}
+
+/* Style for submit button */
+.contact-form .submitBtn {
+  margin-top: 3rem;
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+  color: #fff;
+  background: #c36354;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+}
+
+/* Hover effect for submit button */
+.contact-form .submitBtn:hover {
+  background: #e58b42;
+}
+
+/* signup css ends*/
+
+
 
 /* find vet code css ends here */
 .contact .row form {

@@ -7,17 +7,21 @@ import FindVet from "./components/FindVet";
 import Footer from "./components/Footer";
 import Mission from "./components/Mission";
 import Review from "./components/Review";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SignUp from "./loginSignupPages/SignUpAsPetOwner";
+import ManageLogin from "./loginSignupPages/ManageLogin";
+
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Home />
-      <About />
-      <FindVet />
-      <Mission />
-      <Review />
-      <Footer />
-
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/login" element={<ManageLogin />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
